@@ -47,7 +47,7 @@
         endif;
         
         if ($data_nascimento == ''):
-            $mensagem .= '<li>Favor preencher a Data de Nascimento</li>';
+            $mensagem .= '<li>Favor preencher sua data de nascimento</li>';
         else:
             $data = explode ('/', $data_nascimento);
             if (!checkdate($data[1], $data[0], $data[2])):
